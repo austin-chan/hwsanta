@@ -7,12 +7,20 @@
 //
 
 #import "AppAppDelegate.h"
+#import "GameState.h"
 
 @implementation AppAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    [[GameState sharedGameState] load];
+    NSLog(@"%@", [[GameState sharedGameState] storage]);
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:NO];
+    UIColor *navBar = [UIColor colorWithPatternImage:[UIImage imageNamed:@"greenLinen.png"]];
+    [[UINavigationBar appearance] setBackgroundColor:navBar];
+    
     return YES;
 }
 							
