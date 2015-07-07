@@ -34,6 +34,7 @@ HW Santa is [GNU GPL v3 licensed](./LICENSE?raw=true). All of the projects are a
 ![ScreenShot](./screenshots/mobile1.png)
 ![ScreenShot](./screenshots/mobile2.png)
 ![ScreenShot](./screenshots/mobile3.png)
+![ScreenShot](./screenshots/mobile4.png)
 
 **Web**
 
